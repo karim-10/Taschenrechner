@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taschenrechner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Taschenrechner</h1>
+        <div class="calculator">
+        <div id="result"></div>
+        <div class="buttons">
+        <div class="tasten">
+            <button onclick="addChar(1)">1</button>
+            <button onclick="addChar(2)">2</button>
+            <button onclick="addChar(3)">3</button>
+            <button onclick="addChar(4)">4</button>
+            <button onclick="addChar(5)">5</button>
+            <button onclick="addChar(6)">6</button>
+            <button onclick="addChar(7)">7</button>
+            <button onclick="addChar(8)">8</button>
+            <button onclick="addChar(9)">9</button>
+        </div>   
+        <div class="calc">
+        <button onclick="addChar('+')">+</button>
+         <button onclick="addChar('-')">-</button>
+         <button onclick="calcMe()">Enter</button>
+         <button onclick="resetMe('-')">Reset</button>
+         <button onclick="addChar(0)">0</button> 
+            </div>
+         </div>
+    </div>
+</main>
+    <script src="main.js"></script>
+</body>
+
+</html>
